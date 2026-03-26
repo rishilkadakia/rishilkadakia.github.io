@@ -10,7 +10,7 @@ export default function Home() {
 
         <p className="text-xl mb-6">
           Computer Science student at the University of Illinois Urbana-Champaign on the Pre-Med track,
-          interested in utilizing computer science and engineering to problem-solve within the healthcare industry.
+          interested in using computer science and engineering to problem-solve within the healthcare industry.
         </p>
 
         <div className="flex gap-4 flex-wrap">
