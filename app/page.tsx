@@ -1,4 +1,7 @@
+import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+// Shift + Alt + F for Fixing Indentation
 
 export default function Home() {
   return (
@@ -34,7 +37,34 @@ export default function Home() {
             LinkedIn
           </a>
         </div>
+
+        <section className="mt-12 mb-10">
+          <h2 className="text-2xl font-semibold mb-4">Education</h2>
+
+          <div className="border rounded-2xl p-8 shadow-sm flex items-center justify-between">
+
+            {/* LEFT SIDE (TEXT) */}
+            <div>
+              <p className="text-lg font-semibold">
+                University of Illinois Urbana-Champaign
+              </p>
+              <p className="text-base mt-1">B.S. in Computer Science</p>
+              <p className="text-base">The Grainger College of Engineering</p>
+              <p className="text-sm text-gray-600 mt-2">
+                Expected Graduation: May 2029
+              </p>
+            </div>
+
+            {/* RIGHT SIDE (LOGO) */}
+            <img
+              src="/uiuc.png"
+              alt="UIUC logo"
+              className="w-20 h-20 object-contain ml-6 opacity-90"
+            />
+          </div>
+        </section>
       </section>
+
     </main>
   );
 }
