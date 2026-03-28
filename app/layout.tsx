@@ -16,11 +16,20 @@ export default function RootLayout({
       <body>
         <main className="min-h-screen bg-white text-black px-6 py-16">
           <section className="max-w-4xl mx-auto">
-            
+
             {/* NAVBAR */}
             <nav className="flex gap-6 mb-10 text-lg">
               <Link href="/" className="hover:underline">
                 Home
+              </Link>
+              <Link href="/experience" className="hover:underline">
+                Experience
+              </Link>
+              <Link href="/research" className="hover:underline">
+                Research
+              </Link>
+              <Link href="/projects" className="hover:underline">
+                Projects
               </Link>
               <Link href="/blog" className="hover:underline">
                 Blog
